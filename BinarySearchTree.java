@@ -270,7 +270,6 @@ public class BinarySearchTree<T extends Comparable<T>> implements Iterable<T> {
 
 	/**
 	 * Iterates through the tree using the i
-	 * @author class
 	 *
 	 */
 	public class InefficientIterator implements Iterator<T>{
@@ -298,7 +297,6 @@ public class BinarySearchTree<T extends Comparable<T>> implements Iterable<T> {
 	
 	/**
 	 * Iterates through the tree left, root, right (aka natural order)
-	 * @author kimmm
 	 *
 	 */
 	public class InOrderIterator implements Iterator<T>{
@@ -357,7 +355,6 @@ public class BinarySearchTree<T extends Comparable<T>> implements Iterable<T> {
 	
 	/**
 	 * Iterates through the tree so that it is root, left, right
-	 * @author kimmm
 	 *
 	 */
 	public class PreOrderIterator implements Iterator<T>{
@@ -410,7 +407,6 @@ public class BinarySearchTree<T extends Comparable<T>> implements Iterable<T> {
 	
 	/**
 	 * Wrapper Class for Boolean
-	 * @author kimmm
 	 *
 	 */
 	public class MyBoolean{
